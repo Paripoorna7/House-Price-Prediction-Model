@@ -1,40 +1,58 @@
-# 🛒 E-commerce Customer Behavior Prediction
+# 🏠 House Price Prediction Model
 
 ## 📌 Overview
-This project predicts customer purchase behavior and churn using Machine Learning models. It helps businesses identify potential customers who may stop using the service and take proactive actions.
+This project focuses on predicting house prices using Machine Learning techniques. The model analyzes various features such as location, area, number of rooms, and other factors to estimate the price of a house accurately.
 
 ## 🚀 Features
 - Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
 - Feature engineering and selection  
-- Classification models for churn prediction  
-- Model evaluation and comparison  
-- Data visualization for insights  
+- Implementation of regression models  
+- Model evaluation using performance metrics  
+- Visualization of insights and trends  
 
 ## 🛠️ Tech Stack
-- Python  
-- Pandas, NumPy  
-- Scikit-learn, XGBoost  
-- Matplotlib, Seaborn  
+- Programming Language: Python  
+- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
 
 ## 📊 Dataset
-- Customer transaction data including:
-  - Purchase history  
-  - Customer activity  
-  - Demographics  
+- The dataset contains information about housing features such as:
+  - Area (sq ft)
+  - Number of bedrooms and bathrooms
+  - Location
+  - Amenities
+- Dataset can be sourced from platforms like Kaggle or any housing dataset.
 
-## ⚙️ Installation
-bash git clone  (https://github.com/Paripoorna7/House-Price-Prediction-Model.git) cd ecommerce-customer-behavior-prediction pip install -r requirements.txt python main.py 
+## ⚙️ Installation & Setup
 
-## 📈 Models Used
-- Logistic Regression  
-- Random Forest  
-- XGBoost  
+1. Clone the repository:
+   bash    git clone (https://github.com/bhukyakiranugec110/House-Price-Prediction.git)    cd house-price-prediction    
 
-## 📉 Results
-- Achieved ~87% accuracy in churn prediction  
-- Identified key factors influencing customer behavior  
+2. Install required dependencies:
+   bash    pip install -r requirements.txt    
+
+3. Run the project:
+   bash    python main.py    
+
+## 📈 Model Used
+- Linear Regression  
+- Random Forest Regressor  
+
+## 📉 Evaluation Metrics
+- Mean Absolute Error (MAE)  
+- Mean Squared Error (MSE)  
+- R² Score  
+
+## 📷 Results
+- Achieved accurate predictions on test data  
+- Visualized relationships between features and house prices  
+- Identified important factors influencing house prices  
 
 ## 🔮 Future Improvements
-- Deploy using Streamlit  
-- Add real-time data integration  
-- Improve model with deep learning  
+- Deploy the model using Streamlit or Flask  
+- Use advanced models like XGBoost  
+- Improve accuracy with hyperparameter tuning  
+- Integrate real-time data  
+
+## 🤝 Contribution
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
