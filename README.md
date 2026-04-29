@@ -23,7 +23,7 @@ This project predicts customer purchase behavior and churn using Machine Learnin
   - Demographics  
 
 ## ⚙️ Installation
-bash git clone  https://github.com/bhukyakiranugec110/E-commerce.git cd ecommerce-customer-behavior-prediction pip install -r requirements.txt python main.py 
+bash git clone  (https://github.com/Paripoorna7/House-Price-Prediction-Model.git) cd ecommerce-customer-behavior-prediction pip install -r requirements.txt python main.py 
 
 ## 📈 Models Used
 - Logistic Regression  
